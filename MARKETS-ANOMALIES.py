@@ -59,7 +59,7 @@ ax1.set_xlim([0,60000])
 
 
 #Data for second graph
-df=pd.read_csv("C:/Users/adri7/OneDrive/Escritorio/python/RNN/CODIGO PARA EL TFG/ARCHIVOS PARA CODIGO/lockdown-24.csv", sep=",")
+df=pd.read_csv("lockdown-24.csv", sep=",")
 
 
 ofertada = df.loc[df["ofertada_casada"] == "O"]

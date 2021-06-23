@@ -6,7 +6,7 @@ df1=pd.read_csv("precios_luz_14_19.txt", sep=",", index_col=0)
 df2=pd.read_csv("eolica_14_19.csv", sep=",", index_col=0)
 df3=pd.read_csv("demanda_14_19.csv", sep=",", index_col=0)
 df4=pd.read_csv("energia_total_14_19.csv", sep=",", index_col=0)
-df5=pd.read_csv("exptotales_14_19_abs.csv", sep=",", index_col=0)
+df5=pd.read_csv("exptotales_14_19.csv", sep=",", index_col=0)
 df6=pd.read_csv("imptotales_14_19.csv", sep=",", index_col=0)
 df7=pd.read_csv("solar_14_19.csv", sep=",", index_col=0)
 

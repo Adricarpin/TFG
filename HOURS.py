@@ -26,7 +26,7 @@ def to_supervised(train, n_input, n_out=1):
             X.append(x_input)
             y.append(train[in_end[2]:out_end, 0])
         in_start += 1
-    return array(X), array(y)
+    return np.array(X), np.array(y)
 
 # model
 def RNN():
@@ -87,7 +87,7 @@ df = pd.read_csv("precios_luz_14_19.txt", sep=",", index_col=0)
 train, test = split_dataset(df)
 
 #Lags selection
-n_input=array([1,24,168])
+n_input = np.array([1,24,168])
 
 train_x, train_y = to_supervised(train, n_input)
 
