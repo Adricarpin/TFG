@@ -1,13 +1,6 @@
 import numpy as np
 import pandas as pd
-from tensorflow import keras
-from pandas import read_csv
-from pandas import to_numeric
-from numpy import split
-from numpy import array
 from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import mean_squared_error
-from sklearn.metrics import mean_absolute_percentage_error
 import matplotlib.pyplot as plt
 pd.options.mode.chained_assignment = None
 from datetime import datetime
